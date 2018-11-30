@@ -17,6 +17,9 @@
 在用state分别与outputs向量进行内积 ，计算sorfmax概率最大的项，所对应的词即为填空词。
 >  index = np.argmax(sorfmax(matul(outputs, state)))
 
+# 数据
+https://github.com/ymcui/cmrc2017
+
 # 训练
 
 > python train.py
